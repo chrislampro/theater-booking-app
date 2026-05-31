@@ -200,30 +200,6 @@ bash
 curl -X DELETE http://localhost:4001/api/bookings/1 \
   -H "Authorization: Bearer YOUR_TOKEN_HERE"
 
-## 📁 Project Structure
-
-Theater Mayhem-theater-booking/
-├── backend/
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── shows.js
-│   │   ├── theatres.js
-│   │   ├── showtimes.js
-│   │   └── bookings.js
-│   ├── middleware/
-│   │   └── auth.js
-│   ├── db.js
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-├── frontend/
-│   ├── assets/
-│   ├── App.js
-│   ├── app.json
-│   └── package.json
-├── database/
-│   └── schema.sql
-└── README.md
 
 ## 🔒 Security Features
 
@@ -260,12 +236,6 @@ This ensures ACID compliance and prevents race conditions.
 - Offline mode with local storage
 - Email confirmation for bookings
 
-## 👨‍💻 Author
-
-Name: [Your Name]
-Student ID: [Your ID]
-Course: CN6035 - Mobile & Distributed Systems
-School: School of Architecture, Computing and Engineering
 
 ## 🙏 Acknowledgments
 
@@ -277,7 +247,3 @@ School: School of Architecture, Computing and Engineering
 ## 📄 License
 
 This project was developed for educational purposes as part of the CN6035 course requirements.
-
----
-
-Built with ❤️ for the CN6035 Mobile & Distributed Systems Course
