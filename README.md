@@ -1,10 +1,10 @@
-# 🎪 StagePass - Theater Booking Application
+# 🎪 Theater Mayhem - Theater Booking Application
 
 A full-stack mobile application for booking theater seats, built with React Native, Node.js, Express, and MariaDB/MySQL.
 
 ## 📱 Project Overview
 
-StagePass is a distributed mobile application that allows users to:
+Theater Mayhem is a distributed mobile application that allows users to:
 - Browse theater shows and venues
 - Search shows by title, theatre, or location
 - View show details (duration, age rating, genre)
@@ -73,8 +73,8 @@ Tables:
 
 Clone the repository:
 bash
-git clone https://github.com/yourusername/stagepass-theater-booking.git
-cd stagepass-theater-booking
+git clone https://github.com/yourusername/Theater Mayhem-theater-booking.git
+cd Theater Mayhem-theater-booking
 
 Start XAMPP and enable MySQL, then run the database schema:
 bash
@@ -202,7 +202,7 @@ curl -X DELETE http://localhost:4001/api/bookings/1 \
 
 ## 📁 Project Structure
 
-stagepass-theater-booking/
+Theater Mayhem-theater-booking/
 ├── backend/
 │   ├── routes/
 │   │   ├── auth.js
