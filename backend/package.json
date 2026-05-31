@@ -1,0 +1,23 @@
+{
+  "name": "theater-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16",
+    "expo-secure-store": "^56.0.4",
+    "express": "^4",
+    "helmet": "^7",
+    "jsonwebtoken": "^9",
+    "morgan": "^1",
+    "mysql2": "^3",
+    "react-native-safe-area-context": "^5.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3"
+  }
+}
